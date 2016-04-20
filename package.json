@@ -1,0 +1,16 @@
+{
+  "name": "tfkmaterial",
+  "version": "1.0.0",
+  "description": "TFK Material Design Template",
+  "main": "main.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/main.scss   public/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Vangen & Plotz AS",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^3.4.2",
+    "nodemon": "^1.9.1"
+  }
+}

@@ -1,0 +1,9 @@
+
+.main-content {
+  max-width: 1080px;
+}
+
+.mdl-layout__content section:not(:last-of-type) {
+  margin-bottom: 48px;
+  position: relative;
+}

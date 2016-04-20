@@ -1,0 +1,27 @@
+
+.card-wide {
+  width: 100%;
+}
+
+.card-with-icon {
+  position: relative;
+}
+
+.position--right-top {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  z-index: 1;
+}
+
+// .mdl-card__supporting-text {
+//   padding: 40px;
+// }
+
+// .mdl-card__actions {
+//   padding: 4px 40px;
+// }
+
+.mdl-card__supporting-text + .mdl-card__actions {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
