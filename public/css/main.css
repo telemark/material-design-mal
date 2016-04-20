@@ -376,7 +376,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 html {
-  color: rgba(51, 51, 51, 0.8);
+  color: rgba(0, 0, 0, 0.8);
   font-size: 1em;
   line-height: 1.4; }
 
@@ -3840,7 +3840,7 @@ input.mdl-button[type="submit"] {
     background-color: rgba(158,158,158, 0.40); }
   .mdl-button--raised.mdl-button--colored {
     background: #ffd520;
-    color: #333333; }
+    color: #000000; }
     .mdl-button--raised.mdl-button--colored:hover {
       background-color: #ffd520; }
     .mdl-button--raised.mdl-button--colored:active {
@@ -3941,9 +3941,9 @@ input.mdl-button[type="submit"] {
 .mdl-button--primary.mdl-button--primary {
   color: #ffd520; }
   .mdl-button--primary.mdl-button--primary .mdl-ripple {
-    background: #333333; }
+    background: #000000; }
   .mdl-button--primary.mdl-button--primary.mdl-button--raised, .mdl-button--primary.mdl-button--primary.mdl-button--fab {
-    color: #333333;
+    color: #000000;
     background-color: #ffd520; }
 
 .mdl-button--accent.mdl-button--accent {
