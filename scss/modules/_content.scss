@@ -1,9 +1,34 @@
 
 .main-content {
   max-width: 1080px;
+
+  &.main-content__withRibbon {
+    flex-shrink: 0;
+    margin-top: -35vh;
+  }
 }
 
 .mdl-layout__content section:not(:last-of-type) {
   margin-bottom: 48px;
   position: relative;
+}
+
+.article-content {
+  border-radius: 2px;
+  margin-bottom: 80px;
+  padding: 80px 56px;
+}
+
+.tfk-ribbon {
+  flex-shrink: 0;
+  height: 40vh;
+  width: 100%;
+}
+
+.background-color__primary {
+  background-color: $color-primary;
+}
+
+.background-color__accent {
+  background-color: $color-accent;
 }

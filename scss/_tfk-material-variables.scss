@@ -192,7 +192,7 @@ $progress-main-color: $color-accent;
 
 // /* ==========  Footer  ========== */
 
-// $footer-bg-color: unquote("rgb(#{$palette-grey-800})") !default;
+$footer-bg-color: $color-black;
 // $footer-color: unquote("rgb(#{$palette-grey-500})") !default;
 // $footer-heading-color: unquote("rgb(#{$palette-grey-300})") !default;
 // $footer-button-fill-color: $footer-color !default;
