@@ -10729,6 +10729,19 @@ _:-ms-input-placeholder, :root .tfk-graph {
 .background-color__accent {
   background-color: #6ac4ae; }
 
+.padding-large {
+  padding: 40px; }
+
+.mdl-card__supporting-text.padding-large {
+  padding: 40px;
+  width: auto; }
+
+.mdl-card__actions.padding-large {
+  padding: 4px 40px; }
+
+.mdl-card__title.padding-large {
+  padding: 16px 40px; }
+
 .card-wide {
   width: 100%; }
 
