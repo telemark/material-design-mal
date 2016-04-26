@@ -9,5 +9,9 @@ npm install
 
 ### Compile SCSS
 ```
+npm run build-css
+```
+or (to listen)
+```
 npm run watch-css
 ```
