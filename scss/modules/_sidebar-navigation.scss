@@ -9,6 +9,11 @@
 
   .tfk-header {
 
+    .mdl-layout__drawer-button {
+      background-color: transparent;
+      color: black;
+    }
+
     .mdl-textfield {
       padding: 0px;
       margin-top: 41px;
@@ -17,10 +22,6 @@
         bottom: 19px;
       }
     }
-  }
-
-  .mdl-layout__header .mdl-layout__drawer-button {
-    color: rgba(0, 0, 0, 0.54);
   }
 }
 
@@ -37,6 +38,7 @@
     align-items: center;
     color: white;
     font-weight: 500;
+    padding: 16px;
 
     &:hover, &:active, &:focus {
       background-color: $color-primary;
@@ -77,12 +79,15 @@
 
 .tfk-navigation {
   flex-grow: 1;
-}
 
-.tfk-navigation .mdl-navigation__link .material-icons {
-  font-size: 24px;
-  color: rgba(255, 255, 255, 0.56);
-  margin-right: 32px;
+  .mdl-navigation__link {
+    
+    .material-icons {
+      font-size: 24px;
+      color: rgba(255, 255, 255, 0.56);
+      margin-right: 16px;
+    }
+  }
 }
 
 /* TODO: Find a proper solution to have the graphs
