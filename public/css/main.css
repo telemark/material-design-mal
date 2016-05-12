@@ -10767,3 +10767,8 @@ _:-ms-input-placeholder, :root .tfk-graph {
 .header-row__tfk-background-yellow {
   background-color: #ffd520;
   color: black; }
+
+.pagination ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
