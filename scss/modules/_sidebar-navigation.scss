@@ -31,18 +31,27 @@
 
 .tfk-drawer {
   border: none;
+  background-color: $color-primary;
 
   .tfk-navigation .mdl-navigation__link {
     display: flex !important;
     flex-direction: row;
     align-items: center;
-    color: white;
+    color: black;
     font-weight: 500;
     padding: 16px;
 
-    &:hover, &:active, &:focus {
-      background-color: $color-primary;
+    .material-icons {
       color: black;
+    }
+
+    &:hover, &:active, &:focus {
+      background-color: black;
+      color: white;
+
+      .material-icons {
+        color: white;
+      }
     }
   }
 }
