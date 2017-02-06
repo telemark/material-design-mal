@@ -1,4 +1,6 @@
 # material-design-mal
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/material-design-mal.svg)](https://greenkeeper.io/)
 Material design maler tilpasset vår profil
 ***
 ## How to
