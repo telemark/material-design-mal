@@ -10,8 +10,8 @@
   "author": "Vangen & Plotz AS",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^3.4.2",
-    "nodemon": "^1.9.1"
+    "node-sass": "3.13.1",
+    "nodemon": "1.17.4"
   },
   "dependencies": {
     "material-design-lite": "^1.1.3"
