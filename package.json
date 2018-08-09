@@ -10,7 +10,7 @@
   "author": "Vangen & Plotz AS",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "4.9.2",
+    "node-sass": "4.9.3",
     "nodemon": "1.18.3"
   },
   "dependencies": {
