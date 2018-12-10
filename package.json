@@ -11,7 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "4.11.0",
-    "nodemon": "1.18.7"
+    "nodemon": "1.18.8"
   },
   "dependencies": {
     "material-design-lite": "^1.1.3"
